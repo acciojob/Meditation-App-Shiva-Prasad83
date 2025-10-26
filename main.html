@@ -13,8 +13,8 @@
 
         <div class="vid-container">
 
-        <video id="rain" src="https://www.w3schools.com/html/mov_bbb.mp4" controls loop muted style="height:100%; width: 100%;"></video>
-        <video id="beach" class="hide" src="https://www.w3schools.com/html/mov_bbb.mp4" controls loop muted style="height: 100%; width: 100%;"></video>
+        <video id="rain" src="video/rain.mp4" type="video/mp4" controls loop muted style="height:100%; width: 100%;"></video>
+        <video id="beach" class="hide" src="video/beach.mp4" type="video/mp4" controls loop muted style="height: 100%; width: 100%;"></video>
           <div class="actions">
              
             <div class="time-select">
@@ -30,6 +30,7 @@
             </div>
 
             <div class="time-display">
+				10:00
              <button class="play btnStyles" id="playPause">
                 <i class="fa-solid fa-play" style="font-size:50px; height: 100%; width:100% "></i>
              </button>
@@ -37,7 +38,7 @@
                 <i class="fa-solid fa-pause" style="font-size:50px; height: 100%; width:100% "></i>
              </button>
 			
-             <h1 id="timer">10:0</h1>
+             <h1 id="timer"></h1>
             </div>
 
             <div class="sound-picker">
@@ -56,8 +57,8 @@
         </div>
 
          <div class="player-container">
-          <audio class="song" id="rainSong"src="https://www.w3schools.com/html/horse.mp3" loop ></audio>
-          <audio class="song" id="beachSong"src="https://www.w3schools.com/html/horse.mp3" loop ></audio>
+          <audio class="song" id="rainSong" src="sounds/rain.mp3" type="audio/mp3" loop muted></audio>
+          <audio class="song" id="beachSong" src="sounds/beach.mp3" type="audio/mp3" loop muted></audio>
          </div>
     </div>
 	<!-- the entire body must be written by student -->

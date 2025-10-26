@@ -43,7 +43,7 @@ body{
             justify-content: space-evenly;
             
         }
-        .time-display{
+        .timeDisplay{
             display:flex;
             flex-direction: column;
             align-items: center;

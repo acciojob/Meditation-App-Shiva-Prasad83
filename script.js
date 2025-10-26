@@ -1,6 +1,6 @@
 //your JS code here. If required.
  //  const playAndPause=document.getElementById("playPause");
-         const timeDisplay=document.querySelector(".time-display");
+         const timeDisplay=document.querySelector(".timeDisplay");
         //  console.log(timeDisplay.childNodes[1],"Hi",timeDisplay.childNodes[3],"Hello");
          const playButton=timeDisplay.childNodes[1];
          const pauseButton=timeDisplay.childNodes[3];

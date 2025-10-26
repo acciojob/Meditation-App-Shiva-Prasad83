@@ -174,8 +174,9 @@
       let timerId=setInterval(()=>{
         let minutes=Math.floor(time/60);
      let seconds=Math.floor(time%60);
-     Timer.innerText=`${minutes>=10?minutes:"0"+minutes} : ${seconds>=10?seconds:"0"+seconds}`;
-     time--;
+     //Timer.innerText=`${minutes>=10?minutes:"0"+minutes} : ${seconds>=10?seconds:"0"+seconds}`;
+     Timer.innerText=`${minutes}:${seconds}`
+		  time--;
       remainingTime=time;
       if(time<0){
         currentSong.pause();

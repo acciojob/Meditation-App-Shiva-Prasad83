@@ -9,7 +9,7 @@ body{
             align-items: center;
             background-color: #1C3A4A;
         }
-        #app{
+        .app{
             height:400px;
             width:700px;
             /* border:2px solid black; */

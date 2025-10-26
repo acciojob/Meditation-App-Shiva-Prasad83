@@ -1,1 +1,89 @@
 /*  your css code here. If applicable */
+body{
+            margin:0;
+            padding:0;
+            height:100vh;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1C3A4A;
+        }
+        #app{
+            height:400px;
+            width:700px;
+            /* border:2px solid black; */
+            /* border-radius: 20px; */
+        }
+        .vid-container{
+            position:relative;
+            height:100%;
+             width:100%; 
+            /*border-radius: 20px; */
+            /* border:2px solid black; */
+        }
+        .actions{
+            height: 100%;
+            display:flex;
+            justify-content: space-between;
+            width:100%;
+            position:absolute;
+            top:0;
+          
+            /* border:2px solid black; */
+            
+        }
+        
+        #time-select{
+            /* border:2px solid black; */
+            width: 25%;
+            display:flex;
+            flex-direction: column;
+             align-items: center;
+            justify-content: space-evenly;
+            
+        }
+        .time-display{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* border:2px solid black; */
+            width:55%;
+        }
+        .sound-picker{
+            display: flex;
+            flex-direction: column;
+            width:20%;
+            justify-content: center;
+            gap:40px;
+        }
+        .btn{
+            height:35px;
+            width: 100px;
+            background-color:transparent;
+            color:white;
+            overflow: hidden;
+            border:1px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btnStyles{
+            height: 60px;
+            width: 60px;
+            /* border: 1px solid red; */
+            color:rgb(187, 171, 171);
+            background-color: transparent;
+            border:none;
+            cursor:pointer;
+            /* position: relative; */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        .hide{
+            display:none;
+        }
+        #timer{
+            color:white;
+        }

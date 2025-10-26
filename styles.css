@@ -34,7 +34,7 @@ body{
             
         }
         
-        #time-select{
+        .time-select{
             /* border:2px solid black; */
             width: 25%;
             display:flex;
